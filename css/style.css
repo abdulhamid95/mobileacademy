@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: ar-font;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+
+body {
+    font-family: ar-font !important;
+    direction: rtl;
+}
+
+header.header {
+    background-image: url(../images/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 10;
+    text-align: right;
+}
+
+header.header .overlay {
+    background-color: rgba(239, 71, 58, 0.8);
+    z-index: -2;
+    position: relative;
+    padding-top: 90px;
+}
+
+header.header .overlay .header-img {
+    position: absolute;
+    bottom: -250px;
+    z-index: -1;
+}
+
+header.header .overlay .header-img img {
+    max-width: 100%;
+}
+
+header.header .overlay .header-text img {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+header.header .overlay .header-text h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+header.header .overlay .header-text p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+header.header .overlay .header-button a.btn {
+    margin: 40px 0;
+    background-color: #fafafa;
+    line-height: 50px;
+    padding: 8px 16px;
+}
+
+header.header .overlay .header-button a[class^="btn"]:last-child {
+    margin-right: 20px;
+}
+
+header.header .overlay .header-button a.btn img {
+    width: 50px;
+    vertical-align: sub;
+}
+
+header.header .overlay .header-button a.btn p {
+    font-size: 14px;
+    color: #090909;
+    line-height: 25px;
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+header.header .overlay .header-button a.btn p span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+header.header .overlay .header-button a.btn i {
+    font-size: 50px;
+}
+
+
+/****** Feature *********/
+
+
+section.feature {
+    background-color: #fff;
+    z-index: 10;
+    min-height: 100vh;
+    position: relative;
+    padding: 80px 0;
+}
+
+section.feature .features {
+    margin-top: 90px;
+}
+
+section.feature .features .d-flex {
+    margin-bottom: 70px;
+}
+
+section.feature .features .flex-icon i {
+    color: #fff;
+    background-color: #ef473a;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 2px;
+    text-align: center;
+    display: block !important;
+}
+
+section.feature .features.text-end {
+    direction: ltr;
+}
+
+section.feature .features .flex-body h5 {
+    font-size: 24px;
+    color: #080808;
+    margin-bottom: 12px;
+}
+
+section.feature .features .flex-body p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #757474;
+}
+
+section.feature .feature-img img {
+    width: 80%;
+}
+
+
+
+/******** Option ***********/
+
+section.option {
+    padding: 120px 0 0;
+    background-color: #f8f8f8;
+    z-index: -2;
+    position: relative;
+    text-align: right;
+}
+
+section.option .options {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+section.option .options .d-flex {
+    margin-bottom: 60px;
+}
+
+section.option .options .flex-body h4 {
+    font-size: 24px;
+    line-height: 40px;
+    color: #141414;
+}
+
+section.option .options .flex-body p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #757474;
+}
+
+section.option .option-img {
+    position: absolute;
+    bottom: -150px;
+    z-index: -1;
+}
+
+
+
+/******** Slider **********/
+
+section.slider {
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+section.slider .slider-text {
+    margin-bottom: 60px;
+}
+
+section.slider .slider-text h3 {
+    font-size: 36px;
+}
+
+section.slider .slider-carousel .carousel-inner {
+    width: 60%;
+    margin: 0 auto;
+}
+
+section.slider .slider-carousel button.carousel-control-prev,
+section.slider .slider-carousel button.carousel-control-next {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ef473a;
+    border-radius: 50%;
+    color: #ef473a;
+    opacity: 1;
+    margin-top: 130px;
+}
+
+section.slider .slider-carousel .carousel-indicators {
+    bottom: -60px;
+}
+
+section.slider .slider-carousel .carousel-indicators button {
+    max-width: 20px;
+    height: 20px;
+    border: 1px solid #ef473a;
+    border-radius: 50%;
+}
+
+section.slider .slider-carousel .carousel-indicators button.active {
+    background-color: #ef473a;
+}
+
+
+
+/********* Faq **********/
+
+section.faq {
+    background: url(../images/bg-2.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.faq .overlay {
+    padding: 70px 0 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+section.faq .overlay .faq-title h3 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+section.faq .overlay .accordion .accordion-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0px;
+    border-radius: 0px;
+    margin-bottom: 25px;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button {
+    border-bottom: 0px;
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+
+section.faq .overlay .accordion .accordion-item .accordion-header button.collapsed i {
+    transform: rotate(180deg);
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button::after {
+    content: none;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 0;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-body p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #c9c9c9;
+}
+
+
+/********** Footer **********/
+
+footer.footer {
+    background-color: #232323;
+    overflow: hidden;
+    text-align: right;
+}
+
+footer.footer .top-footer {
+    border-bottom: 2px solid #2a2929;
+}
+
+footer.footer .top-footer .widget h5 {
+    margin-bottom: 35px;
+    border-bottom: 2px solid #272727;
+    position: relative;
+    font-size: 24px;
+    color: #f4f8fb;
+    line-height: 80px;
+}
+
+footer.footer .top-footer .widget h5::after {
+    width: 90px;
+    height: 2px;
+    background-color: #ef473a;
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    display: inline-block;
+}
+
+footer.footer .top-footer .widget p {
+    font-size: 18px;
+    line-height: 40px;
+    color: #757474;
+}
+
+footer.footer .top-footer .widget ul.social-media {
+    padding: 0px;
+    margin-top: 95px;
+}
+
+footer.footer .top-footer .widget ul.social-media li a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    background-color: #353638;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 8px;
+}
+
+footer.footer .top-footer .widget ul.social-media li a:hover {
+    background-color: #ef473a;
+}
+
+footer .top-footer .widget ul.twittes {
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+
+footer.footer .top-footer .widget ul.twittes li:not(:last-child) {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2a2929;
+}
+
+footer.footer .top-footer .widget ul.twittes li span {
+    font-size: 15px;
+    color: #757474;
+    line-height: 24px;
+    position: relative;
+    text-indent: 20px;
+    padding-right: 5px;
+}
+
+footer.footer .top-footer .widget ul.twittes li i {
+    color: #ef473a;
+}
+
+footer.footer .top-footer .widget form input {
+    font-size: 14px;
+    color: #c6c6c6 !important;
+    line-height: 25px;
+    background-color: #2c2b2b;
+    font-family: ar-font;
+    border-radius: 0;
+    border-color: transparent;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+footer.footer .top-footer .widget form button {
+    font-size: 14px;
+    font-family: ar-font;
+    color: #ffffff;
+    line-height: 25px;
+    background-color: #ef473a;
+    border-radius: 0;
+    border-color: transparent;
+}
+
+footer.footer .copyright span {
+    font-size: 15px;
+    line-height: 70px;
+    color: #565656;
+}
