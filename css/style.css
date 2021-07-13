@@ -397,6 +397,11 @@ footer.footer .top-footer .widget form button {
     border-color: transparent;
 }
 
+
+footer.footer .top-footer .widget .invalid-feedback {
+    margin-bottom: 15px;
+}
+
 footer.footer .copyright span {
     font-size: 15px;
     line-height: 70px;

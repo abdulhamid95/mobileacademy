@@ -398,8 +398,11 @@
                     <div class="col-md-4">
                         <div class="widget">
                             <h5>القائمة البريدية</h5>
-                            <form class="form-group">
-                                <input type="email" name="email" id="email" class="form-control" placeholder="البريد الالكتروني">
+                            <form class="form-group needs-validation" novalidate>
+                                <input type="email" class="form-control" placeholder="البريد الالكتروني" aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback">
+                                    عذرًا يرجى إدخل البريد الإلكتروني
+                                  </div>
                                 <button type="submit" class="btn">أضفني للقائمة البريدية</button>
                             </form>
                         </div>
@@ -415,5 +418,6 @@
     </footer>
 
     <script src="asset/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
